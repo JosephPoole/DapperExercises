@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj": {}
+    "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\DapperExercises\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj": {
+    "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\DapperExercises\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj",
+        "projectUniqueName": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\DapperExercises\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj",
         "projectName": "BestBuyBestPractices",
-        "projectPath": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj",
+        "projectPath": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\DapperExercises\\BestBuyBestPractices\\BestBuyBestPractices\\BestBuyBestPractices.csproj",
         "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\BestBuyBestPractices\\BestBuyBestPractices\\obj\\",
+        "outputPath": "C:\\Users\\Joseph\\Desktop\\Repos\\DAPPERExercise\\DapperExercises\\BestBuyBestPractices\\BestBuyBestPractices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joseph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
